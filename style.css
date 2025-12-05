@@ -791,4 +791,21 @@ footer {
   .assinar1 {
     width: 330px;
   }
+
+  .formulario {
+    width: 750px;
+  }
+  .campoformulario{
+    width: 300px;
+  }
+
+  #imgforms {
+    width: 260px;
+    height: 250px;
+    margin-top: 235px;
+    margin-left: 100px;
+  } 
+
+
+
 }
