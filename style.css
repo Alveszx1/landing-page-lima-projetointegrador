@@ -806,6 +806,29 @@ footer {
     margin-left: 100px;
   } 
 
+    #linksuteis {
+
+    display: none;
+  }
+
+  .receba-novidades {
+    margin-top: 60px;
+  }
+
+  #Contato{
+    margin-left: -700px;
+  }
+
+  footer {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  #tela6 {
+    height: 55vh;
+  } 
+
+
 
 
 }
