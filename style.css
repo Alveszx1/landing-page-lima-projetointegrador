@@ -18,4 +18,119 @@ html {
     margin: 0;
     font-family: Arial, sans-serif;
   }
+
+  .tela1 {
+
+    height: 80vh;
+  
+  }
+  
+  .tela2 {
+    background-image: linear-gradient(#FFFFFF, #3884F5);
+    height: 100vh;
+  
+  }
+  
+  .tela3 {
+    height: 100vh;
+  }
+  
+  
+  .botao {
+    margin-top: 30px;
+    padding: 12px 24px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #header1 {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+  }
+  
+  .ephoros {
+    height: 150px;
+    margin-top: 12px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 75px;
+    font-size: 18px;
+  }
+  
+  .buttonassinar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    margin: 60px 30px 0px 0px;
+    background-color: #3884F5;
+    width: 312px;
+    height: 50px;
+    border-radius: 40px;
+    transition: 0.2s;
+  }
+  
+  #textoprincipaltela1 {
+    width: 600px;
+    height: 280px;
+    font-size: 64px;
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    margin: 40px 60px 60px 60px;
+  }
+  
+  .blue {
+    color: #3884F5;
+  }
+  
+  #paragrafoprincipaltela1 {
+    width: 535px;
+    height: 136px;
+    font-size: 18px;
+    color: #878787;
+    margin-bottom: 30px;
+  }
+  
+  .buttondemonst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 335px;
+    height: 52px;
+    background-color: white;
+    border: 1px solid #3884F5;
+    border-radius: 40px;
+    color: #3884F5;
+    font-size: 20px;
+    transition: 0.2s;
+  }
+  
+  .carro {
+    position: absolute;
+    transform: translate(900px, -600px);
+    width: 700px;
+  }
+  
+  .buttondemonst:hover {
+    background-color: #3884F5;
+    color: white;
+  }
+  
+  .buttonassinar:hover {
+    background-color: #416fb4;
+  }
   
