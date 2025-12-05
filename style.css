@@ -513,4 +513,102 @@ iframe {
   height: 60px;
   margin-bottom: 30px;
 }
+
+.tela5 {
+  height: 100vh;
+  background-color: #7d90ff;
+}
+
+#main5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.formulario {
+  background-color: white;
+  width: 1000px;
+  height: 600px;
+  border-radius: 50px;
+}
+
+#pform {
+  margin-top: 30px;
+}
+
+.textoformulario {
+  margin: 30px;
+}
+
+.forms {
+  display: flex;
+}
+
+.campoformulario {
+  width: 600px;
+  height: 300px;
+  margin: 30px;
+
+}
+
+.imagem {
+  width: 300px;
+  height: 300px;
+}
+
+.campoformulario {
+  display: flex;
+  flex-direction: column;
+}
+
+
+input {
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+#nomeform {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+#emailform {
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 500px;
+  height: 120px;
+  resize: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.buttonforms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0b9df7;
+  width: 300px;
+  height: 50px;
+  margin-left: 120px;
+  border-radius: 30px;
+  color: white;
+
+}
+
+#imgforms {
+  width: 300px;
+}
+
+.textofooter {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
   
