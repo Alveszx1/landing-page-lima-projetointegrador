@@ -694,4 +694,47 @@ footer {
   #header1 {
     height: 15vh;
   }
+
+  .cards1 {
+    flex-direction: column;
+    gap: 32px;
+
+  }
+
+  .textocard {
+    font-size: 25px;
+  }
+
+  .pcard {
+    font-size: 15px;
+  }
+
+  #main2 .bola {
+    width: 113px;
+    height: 97px;
+    margin-top: 70px;
+
+  }
+
+  .cards1 .card {
+    width: 300px;
+    height: 190px;
+  }
+
+  .cards2 {
+    flex-direction: column;
+    margin-top: -65px;
+    gap: 32px;
+  }
+
+  .cards2 .card {
+    width: 300px;
+    height: 190px;
+  }
+
+  #main2 {
+
+    flex-direction: row;
+
+  }
 }
