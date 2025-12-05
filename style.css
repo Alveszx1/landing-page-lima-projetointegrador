@@ -771,4 +771,24 @@ footer {
     width: 150px;
     height: 150px;
   }
+
+    #tela4{
+    height: 150vh;
+  }
+
+  .assinar1 {
+
+    position: absolute;
+    transform: translateY(700px);
+  }
+
+  .assinar {
+
+    width: 330px;
+
+  }
+
+  .assinar1 {
+    width: 330px;
+  }
 }
