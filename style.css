@@ -737,4 +737,38 @@ footer {
     flex-direction: row;
 
   }
+
+  iframe {
+    width: 700px;
+    height: 500px;
+
+
+  }
+
+  #retangulo1 {
+    margin-left: 70px;
+    margin-top: 70px;
+  }
+
+  #retangulo2 {
+    margin-left: -620px;
+    margin-top: -60px;
+
+
+  }
+
+  #elipse1 {
+    margin-left: -600px;
+    margin-top: -80px;
+    width: 150px;
+    height: 150px;
+
+  }
+
+  #elipse2 {
+    margin-left: 120px;
+    margin-top: 190px;
+    width: 150px;
+    height: 150px;
+  }
 }
