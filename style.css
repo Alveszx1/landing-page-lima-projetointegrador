@@ -611,4 +611,53 @@ textarea {
   color: white;
 }
 
+.tela6 {
+  background-color: #11578D;
+}
+
+#descricao {
+  margin: 25px;
+}
+
+.descricao-footer {
+  margin-bottom: 30px;
+  width: 300px;
+  font-size: 20px;
+}
+
+.receba-novidades {
+  display: flex;
+  ;
+}
+
+.button-footer {
+  background-color: #60c1fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.footer-contatos {
+  margin-right: 30px;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+li {
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 25px;
+  margin: 30px 15px 0px 15px;
+}
   
