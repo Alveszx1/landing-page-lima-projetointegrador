@@ -344,4 +344,173 @@ hr {
 iframe {
   border-radius: 20px;
 }
+
+.tela4 {
+  height: 80vh;
+  background-color: #B1C2F6;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+#header4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.linha2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 500px;
+}
+
+.assinatura {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.assinar {
+  width: 400px;
+  height: 600px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  transform: translateY(50px);
+}
+
+.plano {
+  width: 300px;
+  height: 70px;
+  border-radius: 30px;
+  background-image: linear-gradient(#11578D, #1C8EE6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.textoplano {
+  text-align: justify;
+  width: 300px;
+  margin: 20px 0px 40px 0px;
+  color: #666464;
+}
+
+.imgassinatura {
+  width: 150px;
+  height: 100px;
+}
+
+.assinarplano {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 234px;
+  height: 60px;
+  background-image: linear-gradient(#11578D, #1C8EE6);
+  font-size: 30px;
+  border-radius: 30px;
+
+}
+
+.beneficios {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.beneficios li {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  font-size: 15px;
+  gap: 12px;
+}
+
+.icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b9df7;
+  color: white;
+  font-weight: bold;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+#botaobranco {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  width: 234px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+.assinar1 {
+
+  width: 400px;
+  height: 600px;
+  background-color: #174378;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+
+}
+
+.textoplano1 {
+  color: white;
+  text-align: justify;
+  width: 300px;
+  margin: 20px 0px 40px 0px;
+}
+
+.beneficios1 {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.beneficios1 li {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  font-size: 15px;
+  gap: 12px;
+  color: white;
+}
+
+.icone1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b9df7;
+  color: #174378;
+  font-weight: bold;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.imgassinatura1 {
+  width: 150px;
+  height: 60px;
+  margin-bottom: 30px;
+}
   
