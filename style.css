@@ -133,4 +133,157 @@ html {
   .buttonassinar:hover {
     background-color: #416fb4;
   }
+
+  #header2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin: 0px 0px 70px 0px;
+    height: 10%;
+  }
+  
+  hr {
+    flex: 1;
+    border: none;
+    border-top: 2px solid #000000;
+  }
+  
+  #main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .linha {
+  
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 500px;
+  }
+  
+  .cards1 {
+    display: flex;
+    margin-bottom: 60px;
+  }
+  
+  .cards2 {
+    display: flex;
+  }
+  
+  .textocard {
+    font-size: 30px;
+    text-align: center;
+    color: #7eaaec;
+  }
+  
+  .pcard {
+    font-size: 15px;
+    font-weight: normal;
+    color: #515151;
+    text-align: center;
+  }
+  
+  .card {
+    width: 320px;
+    height: 250px;
+    background-color: white;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+  }
+  
+  .bola {
+    width: 128px;
+    height: 122px;
+    border-radius: 50%;
+    background-color: #416fb4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-150px);
+    position: absolute;
+  }
+  #header2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  margin: 0px 0px 70px 0px;
+  height: 10%;
+}
+
+hr {
+  flex: 1;
+  border: none;
+  border-top: 2px solid #000000;
+}
+
+#main2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.linha {
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 500px;
+}
+
+.cards1 {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.cards2 {
+  display: flex;
+}
+
+.textocard {
+  font-size: 30px;
+  text-align: center;
+  color: #7eaaec;
+}
+
+.pcard {
+  font-size: 15px;
+  font-weight: normal;
+  color: #515151;
+  text-align: center;
+}
+
+.card {
+  width: 320px;
+  height: 250px;
+  background-color: white;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.bola {
+  width: 128px;
+  height: 122px;
+  border-radius: 50%;
+  background-color: #416fb4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-150px);
+  position: absolute;
+}
   
