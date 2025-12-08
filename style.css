@@ -1,216 +1,153 @@
 html {
-    scroll-behavior: smooth;
-    /* ATIVA O SCROLL SUAVE */
-  }
-  
-  kanit-light {
-    font-family: "Kanit", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  * {
-    font-family: "Kanit", sans-serif;
-  }
-  
-  
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
+  scroll-behavior: smooth;
+  /* ATIVA O SCROLL SUAVE */
+}
 
-  .tela1 {
+kanit-light {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 
-    height: 80vh;
-  
-  }
-  
-  .tela2 {
-    background-image: linear-gradient(#FFFFFF, #3884F5);
-    height: 100vh;
-  
-  }
-  
-  .tela3 {
-    height: 100vh;
-  }
-  
-  
-  .botao {
-    margin-top: 30px;
-    padding: 12px 24px;
-    background: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  #header1 {
-    display: flex;
-    justify-content: space-between;
-    height: 20%;
-  }
-  
-  .ephoros {
-    height: 150px;
-    margin-top: 12px;
-  }
-  
-  nav ul {
-    display: flex;
-  }
-  
-  nav ul li {
-    margin: 75px;
-    font-size: 18px;
-  }
-  
-  .buttonassinar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    color: white;
-    margin: 60px 30px 0px 0px;
-    background-color: #3884F5;
-    width: 312px;
-    height: 50px;
-    border-radius: 40px;
-    transition: 0.2s;
-  }
-  
-  #textoprincipaltela1 {
-    width: 600px;
-    height: 280px;
-    font-size: 64px;
-    margin-bottom: 30px;
-  }
-  
-  .container {
-    margin: 40px 60px 60px 60px;
-  }
-  
-  .blue {
-    color: #3884F5;
-  }
-  
-  #paragrafoprincipaltela1 {
-    width: 535px;
-    height: 136px;
-    font-size: 18px;
-    color: #878787;
-    margin-bottom: 30px;
-  }
-  
-  .buttondemonst {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 335px;
-    height: 52px;
-    background-color: white;
-    border: 1px solid #3884F5;
-    border-radius: 40px;
-    color: #3884F5;
-    font-size: 20px;
-    transition: 0.2s;
-  }
-  
-  .carro {
-    position: absolute;
-    transform: translate(900px, -600px);
-    width: 700px;
-  }
-  
-  .buttondemonst:hover {
-    background-color: #3884F5;
-    color: white;
-  }
-  
-  .buttonassinar:hover {
-    background-color: #416fb4;
-  }
+* {
+  font-family: "Kanit", sans-serif;
+}
 
-  #header2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(0, 0, 0);
-    font-size: 35px;
-    margin: 0px 0px 70px 0px;
-    height: 10%;
-  }
-  
-  hr {
-    flex: 1;
-    border: none;
-    border-top: 2px solid #000000;
-  }
-  
-  #main2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  .linha {
-  
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    width: 500px;
-  }
-  
-  .cards1 {
-    display: flex;
-    margin-bottom: 60px;
-  }
-  
-  .cards2 {
-    display: flex;
-  }
-  
-  .textocard {
-    font-size: 30px;
-    text-align: center;
-    color: #7eaaec;
-  }
-  
-  .pcard {
-    font-size: 15px;
-    font-weight: normal;
-    color: #515151;
-    text-align: center;
-  }
-  
-  .card {
-    width: 320px;
-    height: 250px;
-    background-color: white;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 50px;
-  }
-  
-  .bola {
-    width: 128px;
-    height: 122px;
-    border-radius: 50%;
-    background-color: #416fb4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-150px);
-    position: absolute;
-  }
-  #header2 {
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.tela1 {
+
+  height: 100vh;
+
+}
+
+.tela2 {
+  background-image: linear-gradient(#FFFFFF, #3884F5);
+  height: 100vh;
+
+}
+
+.tela3 {
+  height: 100vh;
+}
+
+
+.botao {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu{
+  display: none;
+}
+
+#header1 {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+}
+
+.ephoros {
+  height: 150px;
+  margin-top: 12px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 75px;
+  font-size: 18px;
+}
+nav ul li:hover{
+  border-bottom: 2px solid black;
+}
+.buttonassinar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  margin: 60px 30px 0px 0px;
+  background-color: #3884F5;
+  width: 312px;
+  height: 50px;
+  border-radius: 40px;
+  transition: 0.2s;
+}
+
+#textoprincipaltela1 {
+  width: 600px;
+  height: 280px;
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: 40px 60px 60px 60px;
+}
+
+.blue {
+  color: #3884F5;
+}
+
+#paragrafoprincipaltela1 {
+  width: 535px;
+  height: 136px;
+  font-size: 18px;
+  color: #878787;
+  margin-bottom: 30px;
+}
+
+.buttondemonst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 335px;
+  height: 52px;
+  background-color: white;
+  border: 1px solid #3884F5;
+  border-radius: 40px;
+  color: #3884F5;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.carro {
+  position: absolute;
+  transform: translate(900px, -600px);
+  width: 700px;
+}
+
+.carro_mobile{
+  display: none;
+}
+
+.buttondemonst:hover {
+  background-color: #3884F5;
+  color: white;
+}
+
+.buttonassinar:hover {
+  background-color: #416fb4;
+}
+
+
+#header2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -287,6 +224,9 @@ hr {
   position: absolute;
 }
 
+
+
+
 #header3 {
 
   display: flex;
@@ -337,16 +277,7 @@ hr {
 }
 
 .tela4 {
-  height: 150vh;
-  background-color: #B1C2F6;
-}
-
-iframe {
-  border-radius: 20px;
-}
-
-.tela4 {
-  height: 80vh;
+  height: 100vh;
   background-color: #B1C2F6;
 }
 
@@ -462,6 +393,13 @@ iframe {
   border-radius: 30px;
 }
 
+#botaobranco:hover{
+  color: white;
+  background-image: linear-gradient(#1e2e3a, #1C8EE6);
+
+  
+}
+
 .assinar1 {
 
   width: 400px;
@@ -472,6 +410,10 @@ iframe {
   flex-direction: column;
   border-radius: 50px;
 
+}
+
+.assinarplano:hover{
+  background-image: linear-gradient(#1e2e3a, #1C8EE6);
 }
 
 .textoplano1 {
@@ -601,6 +543,10 @@ textarea {
 
 }
 
+.buttonforms:hover{
+  background-color: #11578D;
+}
+
 #imgforms {
   width: 300px;
 }
@@ -609,6 +555,14 @@ textarea {
   display: flex;
   justify-content: space-between;
   color: white;
+}
+
+#linksuteis {
+  margin-left: 90px;
+}
+
+.links:hover{
+  border-bottom: 2px solid white;
 }
 
 .tela6 {
@@ -627,7 +581,7 @@ textarea {
 
 .receba-novidades {
   display: flex;
-  ;
+  margin-top: 40px;
 }
 
 .button-footer {
@@ -639,6 +593,10 @@ textarea {
   height: 40px;
   margin-left: 30px;
   border-radius: 5px;
+}
+
+.button-footer:hover{
+  background-color: #43779e;
 }
 
 .footer-contatos {
@@ -660,6 +618,8 @@ footer {
   font-size: 25px;
   margin: 30px 15px 0px 15px;
 }
+
+
 @media (max-width: 1024px) {
   nav {
     display: none;
@@ -738,11 +698,16 @@ footer {
 
   }
 
+
   iframe {
     width: 700px;
     height: 500px;
 
 
+  }
+
+  #tela4{
+    height: 150vh;
   }
 
   #retangulo1 {
@@ -772,9 +737,7 @@ footer {
     height: 150px;
   }
 
-    #tela4{
-    height: 150vh;
-  }
+
 
   .assinar1 {
 
@@ -800,13 +763,12 @@ footer {
   }
 
   #imgforms {
-    width: 260px;
-    height: 250px;
-    margin-top: 235px;
-    margin-left: 100px;
-  } 
+    width: 200px;
+    height: 200px;
+    margin:140px 0px 0px 180px;
+  }
 
-    #linksuteis {
+  #linksuteis {
 
     display: none;
   }
@@ -826,392 +788,395 @@ footer {
 
   #tela6 {
     height: 55vh;
-  } 
-
-
-
+  }
 
 }
 
 @media (max-width: 375px) { 
 
-.tela1 {
-  height: auto; 
-  padding-bottom: 40px;
-  position: relative;
+  .tela1 {
+    height: auto; 
+    padding-bottom: 40px;
+    position: relative;
+      }
+  
+  #header1 {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+      }
+  
+  .ephoros {
+    height: 200px; 
+    margin-left: -10px;
     }
-
-#header1 {
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
+  
+  .menu{
+    margin: 60px 15px 0 0;
+      }
+  
+  nav {
+    display: none; 
+      }
+  
+  .buttonassinar {
+    display: none;
+      }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      }
+  
+  .container {
+    margin:  15px 0 15px; 
+      }
+  
+  #textoprincipaltela1 {
+    width: 100%;
+    height: auto;
+    font-size: 40px; 
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin: -30px 0 10px 10px;
+      }
+  
+  #paragrafoprincipaltela1 {
+    width: 310px; 
+    height: auto;
+    font-size: 16px;
+    margin-left: 10px;
+      }
+      
+  .buttons-main {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    width: 100%;
+    max-width: 345px;
+    gap: 10px;
+      }
+      
+  .buttondemonst {
+    width: 75%;
+    height: 45px;
+    font-size: 16px;
+    white-space: nowrap; 
+    padding: 0 5px;
+    box-sizing: border-box;
+  
+      }
+  
+  .buttonassineja {
+    width: 40%; 
+    height: 45px;
+    font-size: 14px;
+    box-sizing: border-box;
+      }
+  
+  .carro {
+    display: none;
+      }
+  
+  .carro_mobile {
+    display: block;
+    width: 350px;
+    margin: 30px auto 0 auto;
+    height: auto;
+    position: relative;
     }
-
-.ephoros {
-  height: 120px; 
-  margin-top: 0;
-  margin-left: -10px;
-    }
-
-.menu{
-  margin: 35px 15px 0 0;
-    }
-
-nav {
-  display: none; 
-    }
-
-.buttonassinar {
-  display: none;
-    }
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-    }
-
-.container {
-  margin:  15px 0 15px; 
-    }
-
-#textoprincipaltela1 {
-  width: 100%;
-  height: auto;
-  font-size: 40px; 
-  margin-bottom: 15px;
-  margin-left: 10px;
-  margin: -30px 0 10px 10px;
-    }
-
-#paragrafoprincipaltela1 {
-  width: 310px; 
-  height: auto;
-  font-size: 16px;
-  margin-left: 10px;
-    }
-    
-.buttons-main {
-  display: flex;
-  flex-direction: row; 
-  justify-content: center;
-  width: 100%;
-  max-width: 345px;
-  gap: 10px;
-    }
-    
-.buttondemonst {
-  width: 75%;
-  height: 45px;
-  font-size: 16px;
-  white-space: nowrap; 
-  padding: 0 5px;
-  box-sizing: border-box;
-
-    }
-
-.buttonassineja {
-  width: 40%; 
-  height: 45px;
-  font-size: 14px;
-  box-sizing: border-box;
-    }
-
-.carro {
-  display: none;
-    }
-
-.carro_mobile {
-  display: block;
-  width: 350px;
-  margin: 30px auto 0 auto;
-  height: auto;
-  position: relative;
+  
+  .tela2{
+    margin-top: 90px;
+    height: auto;
   }
-
-.tela2{
-  margin-top: 90px;
-  height: auto;
-}
-
-#main2{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.card{
-  width: 50%;
-  max-width: 270px;
-  border-radius: 15px;
-  margin: 40px;
-}
-
-.bola{
-  right: 20px;
-  max-width: 70px;
-  max-height: 70px;
-}
-
-.bola img{
-  width: 50px;
-  height: 50px;
-}
-
-.linha{
-  max-width: 300px;
-}
-
-.textocard{
-  font-size: 18px;
-}
-
-.pcard{
-  font-size: 14px;
-  max-width: 200px;
-}
-
-#header2{
-  font-size: 25px;
-}
-
-.tela3 {
-  height: auto;
-  padding: 60px 0; 
-}
-
-#header3 {
-  height: auto;
-  margin-bottom: 50px; 
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-}
-
-#header3 h1 {
-  font-size: 25px; 
-  text-align: center;
-}
-
-#main3 {
-  height: auto;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  padding: 0 15px; 
-}
-
-.video {
-  width: 90%; 
-  max-width: 350px; 
-  position: relative;
-  padding-bottom: 56%; 
-}
-
-iframe {
-  position: absolute;
-  width: 100%; 
-  height: 100%;
-  border-radius: 10px; 
-}
-
-#retangulo1,#elipse1,#retangulo2,#elipse2 {
-  display: none;
-}
-
-.tela4 {  
-  height: auto; 
-  padding-bottom: 50px;  
-}
-
-#header4 h1{
-  text-align: center;
-  font-size: 25px;
-}
-
-.linha2{
-  max-width: 200px;
-}
-
-.assinatura {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  gap: 30px; 
-}
-
-.assinar, .assinar1{
-  height: auto;
-  width: 300px; 
-  max-width: 315px;
-  border-radius: 10px;
-}
-.textoplano, .textoplano1 {
- display: none; 
-}
-
-.plano{
-  width: 150px;
-  height: auto;
-  font-size: 14px;
-
-}
-
-.assinarplano{
-  width: 200px;
-  height: auto;
-  margin-bottom: 30px;
-  font-size: 20px;
-}
-
-.icone{
-  width: 20px;
-  height: 20px;
-  margin-left: 3px;
-}
-
-.beneficios li, .beneficios1 li{
-  font-size: 12px;
-}
-
-#botaobranco{
-  width: 200px;
-  height: 30px;
-}
-
-.icone1{
-   width: 20px;
-  height: 20px;
-  margin-left: 3px;
-}
-
-.assinar1{
-  height: 390px;
-}
-
-.tela5 {
-  height: auto;
-  padding: 50px 0;
-}
-
-#main5 {
-  height: auto;
-}
-
-.formulario {
-  width: 90%; 
-  height: auto;
-  border-radius: 20px;
-  padding: 20px 0;
-  margin: 0 auto;
-}
-
-.textoformulario {
-  margin: 20px;
-  text-align: center;
-}
-
-.textoformulario h1 {
-  font-size: 28px;
-}
-
-#pform {
-  font-size: 16px;
-}
-
-.forms {
-  flex-direction: column; 
-  align-items: center;
-}
-
-.campoformulario {
-  width: 90%;
-  margin: 0;
-  align-items: center;
-}
-
-#nomeform, #emailform, textarea {
-  width: 90%;
-  max-width: 300px;
-  margin-bottom: 20px;
-  padding: 10px;
-}
-
-.buttonforms {
-  width: 90%;
-  max-width: 300px;
-  height: 45px;
-  margin: 20px auto 0 auto;
-  font-size: 18px;
-}
-
-.tela6 {
-  height: auto;
-  padding-bottom: 20px;
-}
-
-.logo {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.logo img {
-  width: 150px;
-  height: auto;
-}
-
-.textofooter {
-  flex-direction: column;
-  align-items: center;
-  margin: 20px 15px 0 15px;
-  text-align: center;
-}
-
-#descricao {
-  margin: 20px 0;
-}
-
-.descricao-footer {
-  width: 90%;
-  max-width: 300px;
-  margin: 10px auto;
-  font-size: 16px;
-}
-
-.receba-novidades {
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-  max-width: 300px;
-  margin: 10px auto 30px auto;
-}
-
-#emailform {
-  width: 100%;
-  height: 45px;
-  margin-bottom: 10px;
-}
-
-.button-footer {
-  width: 100%;
-  height: 40px;
-  margin-left: 0;
-}
-
-#linksuteis, #Contato, .imagem {
+  
+  #main2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .card{
+    width: 50%;
+    max-width: 270px;
+    border-radius: 15px;
+    margin: 40px;
+  }
+  
+  .bola{
+    right: 20px;
+    max-width: 70px;
+    max-height: 70px;
+  }
+  
+  .bola img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .linha{
+    max-width: 300px;
+  }
+  
+  .textocard{
+    font-size: 18px;
+  }
+  
+  .pcard{
+    font-size: 14px;
+    max-width: 200px;
+  }
+  
+  #header2{
+    font-size: 25px;
+  }
+  
+  .tela3 {
+    height: auto;
+    padding: 60px 0; 
+  }
+  
+  #header3 {
+    height: auto;
+    margin-bottom: 50px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  #header3 h1 {
+    font-size: 25px; 
+    text-align: center;
+  }
+  
+  #main3 {
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 0 15px; 
+  }
+  
+  .video {
+    width: 90%; 
+    max-width: 350px; 
+    position: relative;
+    padding-bottom: 56%; 
+  }
+  
+  iframe {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    border-radius: 10px; 
+  }
+  
+  #retangulo1,#elipse1,#retangulo2,#elipse2 {
     display: none;
   }
-
-footer {
-  flex-direction: column;
-  align-items: center;
-  font-size: 14px;
-  margin-top: 30px;
-  text-align: center;
-}
-
-.direitos, .termosdeuso, .politica {
-  margin: 5px 0;
-}
-}
+  
+  #tela4 {  
+    height: 230vh; 
+    padding-bottom: 50px;  
+  }
+  
+  #header4 h1{
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .linha2{
+    max-width: 200px;
+  }
+  
+  .assinatura {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 30px; 
+  }
+  
+  .assinar, .assinar1{
+    height: auto;
+    width: 300px; 
+    max-width: 315px;
+    border-radius: 10px;
+  }
+  .textoplano, .textoplano1 {
+   display: none; 
+  }
+  
+  .plano{
+    width: 150px;
+    height: auto;
+    font-size: 14px;
+  
+  }
+  
+  .assinarplano{
+    width: 200px;
+    height: auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  
+  .icone{
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+  }
+  
+  .beneficios li, .beneficios1 li{
+    font-size: 12px;
+  }
+  
+  #botaobranco{
+    width: 200px;
+    height: 30px;
+  }
+  
+  .icone1{
+     width: 20px;
+    height: 20px;
+    margin-left: 3px;
+  }
+  
+  .assinar1{
+    height: 390px;
+  }
+  
+  .tela5 {
+    height: auto;
+    padding: 50px 0;
+  }
+  
+  #main5 {
+    height: auto;
+  }
+  
+  .formulario {
+    width: 90%; 
+    height: auto;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+  
+  .textoformulario {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .textoformulario h1 {
+    font-size: 28px;
+  }
+  
+  #pform {
+    font-size: 16px;
+  }
+  
+  .forms {
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  .campoformulario {
+    width: 90%;
+    margin: 0;
+    align-items: center;
+  }
+  
+  #nomeform, #emailform {
+    width: 400px;
+    max-width: 300px;
+    margin-bottom: 20px;
+    height: 45px;
+    padding: 10px;
+  }
+  
+  textarea{
+    width: 300px;
+    height: 450px;
+  }
+  
+  .buttonforms {
+    width: 90%;
+    max-width: 300px;
+    height: 45px;
+    margin: 20px auto 0 auto;
+    font-size: 18px;
+  }
+  
+  #tela6 {
+    height: 60vh;
+    padding-bottom: 20px;
+  }
+  
+  .logo {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .textofooter {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 15px 0 15px;
+    text-align: center;
+  }
+  
+  #descricao {
+    margin: 20px 0;
+  }
+  
+  .descricao-footer {
+    width: 90%;
+    max-width: 300px;
+    margin: 10px auto;
+    font-size: 16px;
+  }
+  
+  .receba-novidades {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 300px;
+    margin: 10px auto 30px auto;
+  }
+  
+  #emailform {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+  }
+  
+  .button-footer {
+    width: 100%;
+    height: 40px;
+    margin-left: 0;
+  }
+  
+  #linksuteis, #Contato, .imagem {
+      display: none;
+    }
+  
+  footer {
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+    display: none;
+  }
+  
+  .direitos, .termosdeuso, .politica {
+    margin: 5px 0;
+  }
+  }
