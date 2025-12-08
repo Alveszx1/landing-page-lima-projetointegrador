@@ -1089,4 +1089,64 @@ iframe {
 .assinar1{
   height: 390px;
 }
+
+.tela5 {
+    height: auto;
+    padding: 50px 0;
+}
+
+#main5 {
+    height: auto;
+}
+
+.formulario {
+    width: 90%; 
+    height: auto;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.textoformulario {
+    margin: 20px;
+    text-align: center;
+}
+
+.textoformulario h1 {
+    font-size: 28px;
+}
+
+#pform {
+    font-size: 16px;
+}
+
+.forms {
+    flex-direction: column; 
+    align-items: center;
+}
+
+.campoformulario {
+    width: 90%;
+    margin: 0;
+    align-items: center;
+}
+
+#nomeform, #emailform, textarea {
+    width: 90%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.imagem {
+    display: none;
+}
+
+.buttonforms {
+    width: 90%;
+    max-width: 300px;
+    height: 45px;
+    margin: 20px auto 0 auto;
+    font-size: 18px;
+}
 }
