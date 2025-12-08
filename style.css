@@ -975,4 +975,48 @@ main {
 #header2{
   font-size: 25px;
 }
+
+.tela3 {
+  height: auto;
+  padding: 60px 0; 
+}
+
+#header3 {
+  height: auto;
+  margin-bottom: 50px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+#header3 h1 {
+  font-size: 25px; 
+  text-align: center;
+}
+
+#main3 {
+  height: auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 0 15px; 
+}
+
+.video {
+  width: 90%; 
+  max-width: 350px; 
+  position: relative;
+  padding-bottom: 56%; 
+}
+
+iframe {
+  position: absolute;
+  width: 100%; 
+  height: 100%;
+  border-radius: 10px; 
+}
+
+#retangulo1,#elipse1,#retangulo2,#elipse2 {
+  display: none;
+}
 }
