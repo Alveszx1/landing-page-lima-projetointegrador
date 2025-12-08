@@ -1019,4 +1019,74 @@ iframe {
 #retangulo1,#elipse1,#retangulo2,#elipse2 {
   display: none;
 }
+
+.tela4 {  
+  height: auto; 
+  padding-bottom: 50px;  
+}
+
+#header4 h1{
+  text-align: center;
+  font-size: 25px;
+}
+
+.linha2{
+  max-width: 200px;
+}
+
+.assinatura {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 30px; 
+}
+
+.assinar, .assinar1{
+  height: auto;
+  width: 300px; 
+  max-width: 315px;
+  border-radius: 10px;
+}
+.textoplano, .textoplano1 {
+ display: none; 
+}
+
+.plano{
+  width: 150px;
+  height: auto;
+  font-size: 14px;
+
+}
+
+.assinarplano{
+  width: 200px;
+  height: auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.icone{
+  width: 20px;
+  height: 20px;
+  margin-left: 3px;
+}
+
+.beneficios li, .beneficios1 li{
+  font-size: 12px;
+}
+
+#botaobranco{
+  width: 200px;
+  height: 30px;
+}
+
+.icone1{
+   width: 20px;
+  height: 20px;
+  margin-left: 3px;
+}
+
+.assinar1{
+  height: 390px;
+}
 }
