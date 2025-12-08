@@ -1091,62 +1091,127 @@ iframe {
 }
 
 .tela5 {
-    height: auto;
-    padding: 50px 0;
+  height: auto;
+  padding: 50px 0;
 }
 
 #main5 {
-    height: auto;
+  height: auto;
 }
 
 .formulario {
-    width: 90%; 
-    height: auto;
-    border-radius: 20px;
-    padding: 20px 0;
-    margin: 0 auto;
+  width: 90%; 
+  height: auto;
+  border-radius: 20px;
+  padding: 20px 0;
+  margin: 0 auto;
 }
 
 .textoformulario {
-    margin: 20px;
-    text-align: center;
+  margin: 20px;
+  text-align: center;
 }
 
 .textoformulario h1 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 #pform {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .forms {
-    flex-direction: column; 
-    align-items: center;
+  flex-direction: column; 
+  align-items: center;
 }
 
 .campoformulario {
-    width: 90%;
-    margin: 0;
-    align-items: center;
+  width: 90%;
+  margin: 0;
+  align-items: center;
 }
 
 #nomeform, #emailform, textarea {
-    width: 90%;
-    max-width: 300px;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-.imagem {
-    display: none;
+  width: 90%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .buttonforms {
-    width: 90%;
-    max-width: 300px;
-    height: 45px;
-    margin: 20px auto 0 auto;
-    font-size: 18px;
+  width: 90%;
+  max-width: 300px;
+  height: 45px;
+  margin: 20px auto 0 auto;
+  font-size: 18px;
+}
+
+.tela6 {
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.textofooter {
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 15px 0 15px;
+  text-align: center;
+}
+
+#descricao {
+  margin: 20px 0;
+}
+
+.descricao-footer {
+  width: 90%;
+  max-width: 300px;
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+.receba-novidades {
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 300px;
+  margin: 10px auto 30px auto;
+}
+
+#emailform {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.button-footer {
+  width: 100%;
+  height: 40px;
+  margin-left: 0;
+}
+
+#linksuteis, #Contato, .imagem {
+    display: none;
+  }
+
+footer {
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.direitos, .termosdeuso, .politica {
+  margin: 5px 0;
 }
 }
