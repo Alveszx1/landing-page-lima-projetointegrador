@@ -76,7 +76,7 @@ Este projeto não possui testes automatizados por ser uma página estática.
 |------|----------|
 | Bruno Alves | [linkedin.com/in/bruno](https://www.linkedin.com/in/bruno-alves-614389299/) |
 | Lucas Alexandre | [linkedin.com/in/lucas](https://www.linkedin.com/in/lucas-alexandre-7209a0386/) |
-| Enzzo Fernandes | [linkedin.com/in/enzzo](https://linkedin.com/in/SEU-LINK) |
+| Enzzo Fernandes | [linkedin.com/in/enzzo](https://www.linkedin.com/in/enzzo-fernandes-80367b379/) |
 
 
 
