@@ -792,7 +792,7 @@ footer {
 
 }
 
-@media (max-width: 375px) { 
+@media (max-width: 667px) { 
 
   .tela1 {
     height: auto; 
